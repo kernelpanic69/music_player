@@ -1,0 +1,16 @@
+{
+  "name": "music_player",
+  "version": "1.0.0",
+  "main": "./src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "run:dev": "nodemon --exec electron ."
+  },
+  "devDependencies": {
+    "electron": "^9.1.0"
+  },
+  "dependencies": {
+    "music-metadata": "^7.0.0",
+    "uniqid": "^5.2.0"
+  }
+}
